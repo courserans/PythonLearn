@@ -120,8 +120,64 @@
 # date2 = datetime.date(2014,7,11)
 # print(date2-date1)
 
-# 15. Write a Python program to get the volume of a sphere with radius 6.
-# Click me to see the sample solution
-import math
-r = int(input('Radius : '))
-print('Volume', 4/3*math.pi*pow(r, 3))
+# # 15. Write a Python program to get the volume of a sphere with radius 6.
+# # Click me to see the sample solution
+# import math
+# r = int(input('Radius : '))
+# print('Volume', 4/3*math.pi*pow(r, 3))
+
+# # 16. Write a Python program to get the difference between a given number and 17,
+# # if the number is greater than 17 return double the absolute difference.
+#
+# n = int(input("Enter number"))
+# if n > 17:
+#     print(2*abs(n-17))
+# else:
+#     print(n-17)
+
+# 17. Write a Python program to test whether a number is within 100 of 1000 or 2000.
+# n = int(input("Enter number"))
+# if abs(n -1000) < 100 or abs(n -2000) < 100:
+#     print("Number is within 100 of 1000 or 2000")
+
+# # 18. Write a Python program to calculate the sum of three given numbers,
+# # if the values are equal then return three times of their sum.
+# def mysum(x, y, z):
+#     if x == y and y == z and z == x:
+#         return 3 * (x + y + z)
+#     else:
+#         return x + y + z
+#
+#
+# print(mysum(1, 2, 3))
+# print(mysum(3, 3, 3))
+
+# # 19. Write a Python program to get a new string from a given string where "Is" has been added to the front.
+# # If the given string already begins with "Is" then return the string unchanged.
+#
+# mystring = input('Enter string:')
+#
+# if mystring[0:2] == "Is" and len(mystring) > 2:
+#     print(mystring)
+# else:
+#     print("Is"+mystring)
+
+# # 20. Write a Python program to get a string which is n (non-negative integer) copies of a given string.
+#
+# mystr = input("Enter string: ")
+# copies = input("number of copies: ")
+# print(mystr* int(copies))
+
+# # 21. Write a Python program to find whether a given number (accept from the user) is even or odd,
+# # print out an appropriate message to the user.
+#
+# number = int(input("Enter Number: "))
+# if number%2 == 0:
+#     print("Even")
+# else:
+#     print("Odd")
+
+# # 22. Write a Python program to count the number 4 in a given list.
+# mylist = [1,2,3,4,5,4]
+# print(mylist.count(4))
+
